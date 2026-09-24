@@ -1,0 +1,2897 @@
+{
+ "asOf": "2026-09-23",
+ "kinds": [
+  "seismometer",
+  "geophone",
+  "infrasound",
+  "accelerometer",
+  "gnss",
+  "tiltmeter",
+  "strainmeter"
+ ],
+ "sites": [
+  {
+   "id": "UW.STAR",
+   "name": "St. Andrews Rock",
+   "codes": [
+    "UW.STAR"
+   ],
+   "lat": 46.850849,
+   "lon": -121.792953,
+   "x": -2.4782263646817415,
+   "z": 0.21681463000059623,
+   "elev": 3365,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2014-10-13",
+   "onMap": true,
+   "major": "St. Andrews Rock, 3,365 m",
+   "stations": [
+    {
+     "code": "UW.STAR",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "St. Andrews Rock, Mt. Rainier, WA",
+     "lat": 46.850849,
+     "lon": -121.792953,
+     "elev": 3365,
+     "depth": 0.0,
+     "since": "2014-10-13",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EHE",
+        "EHN",
+        "EHZ",
+        "ELZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.RCM",
+   "name": "Camp Muir",
+   "codes": [
+    "UW.RCM"
+   ],
+   "lat": 46.83564,
+   "lon": -121.73298,
+   "x": 2.08745636099911,
+   "z": 1.9069908000004512,
+   "elev": 3076,
+   "kinds": [
+    "seismometer",
+    "gnss"
+   ],
+   "since": "2024-09-09",
+   "onMap": true,
+   "major": "Camp Muir, broadband + GNSS",
+   "stations": [
+    {
+     "code": "UW.RCM",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Camp Muir, Mount Rainier, WA, USA",
+     "lat": 46.83564,
+     "lon": -121.73298,
+     "elev": 3076,
+     "depth": 1.0,
+     "since": "2024-09-09",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.RCS",
+   "name": "Camp Schurman",
+   "codes": [
+    "UW.RCS"
+   ],
+   "lat": 46.87083,
+   "lon": -121.73231,
+   "x": 2.1384627709870037,
+   "z": -2.0036738999995545,
+   "elev": 2877,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2008-04-01",
+   "onMap": true,
+   "major": "Camp Schurman",
+   "stations": [
+    {
+     "code": "UW.RCS",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Mt. Rainier, Camp Schurman, WA, USA",
+     "lat": 46.87083,
+     "lon": -121.73231,
+     "elev": 2877,
+     "depth": 0.0,
+     "since": "2008-04-01",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.MILD",
+   "name": "Mildred Point",
+   "codes": [
+    "CC.MILD"
+   ],
+   "lat": 46.8081,
+   "lon": -121.77568,
+   "x": -1.163250663604594,
+   "z": 4.967510999999872,
+   "elev": 2016,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": "Mildred Point, broadband + infrasound",
+   "stations": [
+    {
+     "code": "CC.MILD",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Mildred Point",
+     "lat": 46.8081,
+     "lon": -121.77568,
+     "elev": 2016,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.OBSR",
+   "name": "Observation Rock",
+   "codes": [
+    "CC.OBSR"
+   ],
+   "lat": 46.899719,
+   "lon": -121.815331,
+   "x": -4.1818404582788995,
+   "z": -5.214108469999498,
+   "elev": 2382,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": "Observation Rock, broadband",
+   "stations": [
+    {
+     "code": "CC.OBSR",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Observation Rock",
+     "lat": 46.899719,
+     "lon": -121.815331,
+     "elev": 2382,
+     "depth": 0.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.RER",
+   "name": "Emerald Ridge",
+   "codes": [
+    "UW.RER"
+   ],
+   "lat": 46.81858,
+   "lon": -121.8425,
+   "x": -6.250188447774629,
+   "z": 3.8028686000005334,
+   "elev": 1748,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound",
+    "gnss"
+   ],
+   "since": "2026-08-12",
+   "onMap": true,
+   "major": "Emerald Ridge, broadband + infrasound + GNSS",
+   "stations": [
+    {
+     "code": "UW.RER",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Emerald Ridge, Mount Rainier, WA, USA",
+     "lat": 46.81858,
+     "lon": -121.8425,
+     "elev": 1748,
+     "depth": 1.0,
+     "since": "2026-08-12",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 0.016666
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PARA",
+   "name": "Paradise Precip Tower",
+   "codes": [
+    "CC.PARA"
+   ],
+   "lat": 46.786442,
+   "lon": -121.742149,
+   "x": 1.3894298338657654,
+   "z": 7.374364540000114,
+   "elev": 1651,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": "Paradise, broadband + infrasound",
+   "stations": [
+    {
+     "code": "CC.PARA",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Paradise Precip Tower",
+     "lat": 46.786442,
+     "lon": -121.742149,
+     "elev": 1651,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.COPP",
+   "name": "Copper Mountain",
+   "codes": [
+    "CC.COPP"
+   ],
+   "lat": 46.79786,
+   "lon": -121.82852,
+   "x": -5.185905445339606,
+   "z": 6.10548220000022,
+   "elev": 1896,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.COPP",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Copper Mountain",
+     "lat": 46.79786,
+     "lon": -121.82852,
+     "elev": 1896,
+     "depth": 1.0,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.TABR",
+   "name": "Tahoma Bridge",
+   "codes": [
+    "CC.TABR"
+   ],
+   "lat": 46.80435,
+   "lon": -121.84948,
+   "x": -6.781568659290587,
+   "z": 5.384248500000282,
+   "elev": 1278,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.TABR",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Tahoma Bridge",
+     "lat": 46.80435,
+     "lon": -121.84948,
+     "elev": 1278,
+     "depth": 0.5,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PANH",
+   "name": "Panhandle Gap",
+   "codes": [
+    "CC.PANH"
+   ],
+   "lat": 46.859032,
+   "lon": -121.642592,
+   "x": 8.968601713222025,
+   "z": -0.6925621599996808,
+   "elev": 2086,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PANH",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Panhandle Gap",
+     "lat": 46.859032,
+     "lon": -121.642592,
+     "elev": 2086,
+     "depth": 0.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.ARAT",
+   "name": "Mount Ararat",
+   "codes": [
+    "CC.ARAT"
+   ],
+   "lat": 46.78898,
+   "lon": -121.8528,
+   "x": -7.034316840126474,
+   "z": 7.0923165999999735,
+   "elev": 1822,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.ARAT",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Mount Ararat",
+     "lat": 46.78898,
+     "lon": -121.8528,
+     "elev": 1822,
+     "depth": 1.0,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.TAVI",
+   "name": "Tahoma Vista",
+   "codes": [
+    "CC.TAVI"
+   ],
+   "lat": 46.7957,
+   "lon": -121.88423,
+   "x": -9.42705037135139,
+   "z": 6.345523000000608,
+   "elev": 1055,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.TAVI",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Tahoma Vista",
+     "lat": 46.7957,
+     "lon": -121.88423,
+     "elev": 1055,
+     "depth": 0.6,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.LO2",
+   "name": "Longmire",
+   "codes": [
+    "UW.LO2",
+    "UW.LON",
+    "UW.LON9"
+   ],
+   "lat": 46.7506,
+   "lon": -121.8096,
+   "x": -3.7455453304569675,
+   "z": 11.357486000000378,
+   "elev": 853,
+   "kinds": [
+    "seismometer",
+    "accelerometer",
+    "tiltmeter"
+   ],
+   "since": "2009-01-28",
+   "onMap": true,
+   "major": "Longmire, broadband + accelerometer + tiltmeters",
+   "stations": [
+    {
+     "code": "UW.LO2",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Longmire, WA, USA",
+     "lat": 46.7506,
+     "lon": -121.8096,
+     "elev": 853,
+     "depth": 0.0,
+     "since": "2009-01-28",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    },
+    {
+     "code": "UW.LON",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Longmire, WA, USA",
+     "lat": 46.750599,
+     "lon": -121.809601,
+     "elev": 853,
+     "depth": 0.0,
+     "since": "2024-05-02",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    },
+    {
+     "code": "UW.LON9",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "LON",
+     "lat": 46.7506,
+     "lon": -121.8096,
+     "elev": 853,
+     "depth": 0.0,
+     "since": "2024-08-20",
+     "instruments": [
+      {
+       "kind": "tiltmeter",
+       "band": null,
+       "channels": [
+        "HAX",
+        "HAY",
+        "HKI"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.FMW",
+   "name": "Mt. Fremont",
+   "codes": [
+    "UW.FMW"
+   ],
+   "lat": 46.941914,
+   "lon": -121.671465,
+   "x": 6.77052995862238,
+   "z": -9.903238819999448,
+   "elev": 1896,
+   "kinds": [
+    "seismometer",
+    "gnss"
+   ],
+   "since": "2018-10-12",
+   "onMap": true,
+   "major": "Mount Fremont, broadband + GNSS",
+   "stations": [
+    {
+     "code": "UW.FMW",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Mt. Fremont, WA, USA",
+     "lat": 46.941914,
+     "lon": -121.671465,
+     "elev": 1896,
+     "depth": 1.0,
+     "since": "2018-10-12",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.WOW",
+   "name": "Mount Wow",
+   "codes": [
+    "CC.WOW"
+   ],
+   "lat": 46.78003,
+   "lon": -121.8851,
+   "x": -9.493282575364956,
+   "z": 8.086930100000616,
+   "elev": 875,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.WOW",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Mount Wow",
+     "lat": 46.78003,
+     "lon": -121.8851,
+     "elev": 875,
+     "depth": 0.5,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.GNOB",
+   "name": "Gobblers Knob Seismic",
+   "codes": [
+    "CC.GNOB"
+   ],
+   "lat": 46.79414,
+   "lon": -121.91438,
+   "x": -11.722338820807682,
+   "z": 6.518885800000363,
+   "elev": 1659,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2022-10-18",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.GNOB",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Gobblers Knob Seismic",
+     "lat": 46.79414,
+     "lon": -121.91438,
+     "elev": 1659,
+     "depth": 0.5,
+     "since": "2022-10-18",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PR05",
+   "name": "Puyallup River 05",
+   "codes": [
+    "CC.PR05"
+   ],
+   "lat": 46.841723,
+   "lon": -121.948863,
+   "x": -14.347494097843917,
+   "z": 1.230987010000025,
+   "elev": 1553,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2023-04-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PR05",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Puyallup River 05",
+     "lat": 46.841723,
+     "lon": -121.948863,
+     "elev": 1553,
+     "depth": 0.0,
+     "since": "2023-04-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.SIFT",
+   "name": "Swift Creek",
+   "codes": [
+    "CC.SIFT"
+   ],
+   "lat": 46.86683,
+   "lon": -121.95329,
+   "x": -14.684517048614358,
+   "z": -1.5591538999998011,
+   "elev": 732,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.SIFT",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Swift Creek",
+     "lat": 46.86683,
+     "lon": -121.95329,
+     "elev": 732,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.RUSH",
+   "name": "Rushingwater Creek",
+   "codes": [
+    "CC.RUSH"
+   ],
+   "lat": 46.90306,
+   "lon": -121.94439,
+   "x": -14.006969214446542,
+   "z": -5.585393800000169,
+   "elev": 1235,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2019-06-20",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.RUSH",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Rushingwater Creek",
+     "lat": 46.90306,
+     "lon": -121.94439,
+     "elev": 1235,
+     "depth": 1.5,
+     "since": "2019-06-20",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.KAUT",
+   "name": "Kautz Creek Helibase",
+   "codes": [
+    "CC.KAUT"
+   ],
+   "lat": 46.730263,
+   "lon": -121.85739,
+   "x": -7.383748813028352,
+   "z": 13.617536810000136,
+   "elev": 689,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.KAUT",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Kautz Creek Helibase",
+     "lat": 46.730263,
+     "lon": -121.85739,
+     "elev": 689,
+     "depth": 0.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.GTWY",
+   "name": "Gateway Entrance Station",
+   "codes": [
+    "CC.GTWY"
+   ],
+   "lat": 46.740163,
+   "lon": -121.916765,
+   "x": -11.903906414570985,
+   "z": 12.517349809999937,
+   "elev": 617,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.GTWY",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Gateway Entrance Station",
+     "lat": 46.740163,
+     "lon": -121.916765,
+     "elev": 617,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.LONR",
+   "name": "Lonesome Lake Unique",
+   "codes": [
+    "CC.LONR"
+   ],
+   "lat": 47.00993,
+   "lon": -121.67376,
+   "x": 6.5958139721709,
+   "z": -17.461856899999457,
+   "elev": 1639,
+   "kinds": [
+    "seismometer",
+    "infrasound"
+   ],
+   "since": "2025-10-02",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.LONR",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Lonesome Lake Unique",
+     "lat": 47.00993,
+     "lon": -121.67376,
+     "elev": 1639,
+     "depth": 1.0,
+     "since": "2025-10-02",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PR04",
+   "name": "Puyallup River 04",
+   "codes": [
+    "CC.PR04"
+   ],
+   "lat": 46.929773,
+   "lon": -121.988592,
+   "x": -17.37202195218753,
+   "z": -8.554009489999476,
+   "elev": 908,
+   "kinds": [
+    "seismometer",
+    "infrasound"
+   ],
+   "since": "2026-06-04",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PR04",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Puyallup River 04",
+     "lat": 46.929773,
+     "lon": -121.988592,
+     "elev": 908,
+     "depth": 1.0,
+     "since": "2026-06-04",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.OPCH",
+   "name": "Ohanapecosh Administrative Area",
+   "codes": [
+    "CC.OPCH"
+   ],
+   "lat": 46.731319,
+   "lon": -121.571171,
+   "x": 14.40580888896435,
+   "z": 13.500183530000315,
+   "elev": 592,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.OPCH",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Ohanapecosh Administrative Area",
+     "lat": 46.731319,
+     "lon": -121.571171,
+     "elev": 592,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.VOIT",
+   "name": "Voight Creek",
+   "codes": [
+    "CC.VOIT"
+   ],
+   "lat": 46.96633,
+   "lon": -121.9834,
+   "x": -16.976760339266598,
+   "z": -12.616588899999693,
+   "elev": 977,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2019-09-25",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.VOIT",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Voight Creek",
+     "lat": 46.96633,
+     "lon": -121.9834,
+     "elev": 977,
+     "depth": 1.5,
+     "since": "2019-09-25",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.CRBN",
+   "name": "Carbon River Ranger Station",
+   "codes": [
+    "CC.CRBN"
+   ],
+   "lat": 46.988155,
+   "lon": -121.961026,
+   "x": -15.273450761550276,
+   "z": -15.042001149999667,
+   "elev": 500,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.CRBN",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Carbon River Ranger Station",
+     "lat": 46.988155,
+     "lon": -121.961026,
+     "elev": 500,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PR03",
+   "name": "Puyallup River 03",
+   "codes": [
+    "CC.PR03"
+   ],
+   "lat": 46.903433,
+   "lon": -122.032691,
+   "x": -20.729233406005324,
+   "z": -5.626845289999745,
+   "elev": 523,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2025-10-30",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PR03",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Puyallup River 03",
+     "lat": 46.903433,
+     "lon": -122.032691,
+     "elev": 523,
+     "depth": 1.0,
+     "since": "2025-10-30",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.CRYS",
+   "name": "Crystal Mountain",
+   "codes": [
+    "CC.CRYS"
+   ],
+   "lat": 46.93441,
+   "lon": -121.50026,
+   "x": 19.80419028994148,
+   "z": -9.069319299999748,
+   "elev": 2027,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2025-09-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.CRYS",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Crystal Mountain",
+     "lat": 46.93441,
+     "lon": -121.50026,
+     "elev": 2027,
+     "depth": 1.0,
+     "since": "2025-09-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PR01",
+   "name": "Puyallup River 01",
+   "codes": [
+    "CC.PR01"
+   ],
+   "lat": 46.910112,
+   "lon": -122.037569,
+   "x": -21.1005905223059,
+   "z": -6.369082559999559,
+   "elev": 648,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2024-10-24",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PR01",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Puyallup River 01",
+     "lat": 46.910112,
+     "lon": -122.037569,
+     "elev": 648,
+     "depth": 0.0,
+     "since": "2024-10-24",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PR02",
+   "name": "Puyallup River 02",
+   "codes": [
+    "CC.PR02"
+   ],
+   "lat": 46.918305,
+   "lon": -122.048639,
+   "x": -21.943338221657935,
+   "z": -7.279570649999399,
+   "elev": 461,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PR02",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Puyallup River 02",
+     "lat": 46.918305,
+     "lon": -122.048639,
+     "elev": 461,
+     "depth": 0.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.KAVK",
+   "name": "Kavik - Ashford Fire Station",
+   "codes": [
+    "CC.KAVK"
+   ],
+   "lat": 46.7605,
+   "lon": -122.03857,
+   "x": -21.176795621407447,
+   "z": 10.257299000000177,
+   "elev": 532,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.KAVK",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Kavik - Ashford Fire Station",
+     "lat": 46.7605,
+     "lon": -122.03857,
+     "elev": 532,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.CARB",
+   "name": "Carbon Repeater",
+   "codes": [
+    "CC.CARB"
+   ],
+   "lat": 46.98832,
+   "lon": -122.00541,
+   "x": -18.652358971854788,
+   "z": -15.06033759999996,
+   "elev": 872,
+   "kinds": [
+    "seismometer",
+    "geophone"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.CARB",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Carbon Repeater",
+     "lat": 46.98832,
+     "lon": -122.00541,
+     "elev": 872,
+     "depth": 0.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.SUNT",
+   "name": "Sun Top",
+   "codes": [
+    "CC.SUNT"
+   ],
+   "lat": 47.04015,
+   "lon": -121.59669,
+   "x": 12.463073700186092,
+   "z": -20.820205499999446,
+   "elev": 1597,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2025-09-10",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.SUNT",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Sun Top",
+     "lat": 47.04015,
+     "lon": -121.59669,
+     "elev": 1597,
+     "depth": 1.0,
+     "since": "2025-09-10",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ",
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF",
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.PALI",
+   "name": "Palisades",
+   "codes": [
+    "CC.PALI"
+   ],
+   "lat": 47.07748,
+   "lon": -121.71046,
+   "x": 3.801880768354658,
+   "z": -24.968688399999923,
+   "elev": 1420,
+   "kinds": [
+    "seismometer",
+    "infrasound"
+   ],
+   "since": "2025-09-17",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.PALI",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Palisades",
+     "lat": 47.07748,
+     "lon": -121.71046,
+     "elev": 1420,
+     "depth": 1.0,
+     "since": "2025-09-17",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "BHE",
+        "BHN",
+        "BHZ"
+       ],
+       "rate": 50.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "BDF"
+       ],
+       "rate": 50.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.STYX",
+   "name": "STYX, Puyallup River",
+   "codes": [
+    "CC.STYX"
+   ],
+   "lat": 46.963747,
+   "lon": -122.080535,
+   "x": -24.371547852964238,
+   "z": -12.329540109999545,
+   "elev": 568,
+   "kinds": [
+    "seismometer",
+    "geophone",
+    "infrasound"
+   ],
+   "since": "2026-08-11",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.STYX",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "STYX, Puyallup River, WA, USA",
+     "lat": 46.963747,
+     "lon": -122.080535,
+     "elev": 568,
+     "depth": 1.06,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      },
+      {
+       "kind": "infrasound",
+       "band": null,
+       "channels": [
+        "CDF",
+        "HDF"
+       ],
+       "rate": 250.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.GRWR",
+   "name": "Greenwater Fire Station",
+   "codes": [
+    "CC.GRWR"
+   ],
+   "lat": 47.11343,
+   "lon": -121.61437,
+   "x": 11.117113508265863,
+   "z": -28.96381189999989,
+   "elev": 590,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2025-09-09",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.GRWR",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Greenwater Fire Station",
+     "lat": 47.11343,
+     "lon": -121.61437,
+     "elev": 590,
+     "depth": 1.0,
+     "since": "2025-09-09",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.ELBE",
+   "name": "Elbe Fire Station",
+   "codes": [
+    "CC.ELBE"
+   ],
+   "lat": 46.76645,
+   "lon": -122.19329,
+   "x": -32.955469880112815,
+   "z": 9.596075500000337,
+   "elev": 386,
+   "kinds": [
+    "seismometer"
+   ],
+   "since": "2026-08-11",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.ELBE",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Elbe Fire Station",
+     "lat": 46.76645,
+     "lon": -122.19329,
+     "elev": 386,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NP.2164",
+   "name": "Mud Mountain Dam",
+   "codes": [
+    "NP.2164"
+   ],
+   "lat": 47.13941,
+   "lon": -121.93202,
+   "x": -13.065253853922774,
+   "z": -31.85096929999956,
+   "elev": 381,
+   "kinds": [
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2025-07-14",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "NP.2164",
+     "network": "NP",
+     "operator": "USGS National Strong-Motion Project",
+     "siteName": "Mud Mountain Dam",
+     "lat": 47.13941,
+     "lon": -121.93202,
+     "elev": 381,
+     "depth": 0.0,
+     "since": "2025-07-14",
+     "instruments": [
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "HN2",
+        "HN3",
+        "HNZ"
+       ],
+       "rate": 200.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CC.TRON",
+   "name": "Electron Hydro",
+   "codes": [
+    "CC.TRON"
+   ],
+   "lat": 46.99766,
+   "lon": -122.174511,
+   "x": -31.525843950017546,
+   "z": -16.098291800000148,
+   "elev": 252,
+   "kinds": [
+    "seismometer",
+    "geophone"
+   ],
+   "since": "2026-08-11",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "CC.TRON",
+     "network": "CC",
+     "operator": "USGS Cascades Volcano Observatory",
+     "siteName": "Electron Hydro, WA, USA",
+     "lat": 46.99766,
+     "lon": -122.174511,
+     "elev": 252,
+     "depth": 1.0,
+     "since": "2026-08-11",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "geophone",
+       "band": null,
+       "channels": [
+        "CHE",
+        "CHN",
+        "CHZ"
+       ],
+       "rate": 500.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.WATCH",
+   "name": "Watch Mountain, Gifford Pinchot National Forest",
+   "codes": [
+    "UW.WATCH"
+   ],
+   "lat": 46.5707,
+   "lon": -121.98712,
+   "x": -17.25996010815491,
+   "z": 31.349772999999978,
+   "elev": 1463,
+   "kinds": [
+    "seismometer",
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2022-08-09",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.WATCH",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Watch Mountain, Gifford Pinchot National Forest, WA, USA",
+     "lat": 46.5707,
+     "lon": -121.98712,
+     "elev": 1463,
+     "depth": 1.0,
+     "since": "2022-08-09",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PB.B941",
+   "name": "kapows941bwa2008, Kapowsin",
+   "codes": [
+    "PB.B941"
+   ],
+   "lat": 46.986801,
+   "lon": -122.219002,
+   "x": -34.912897960127175,
+   "z": -14.891531129999757,
+   "elev": 151,
+   "kinds": [
+    "seismometer",
+    "strainmeter"
+   ],
+   "since": "2008-03-18",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "PB.B941",
+     "network": "PB",
+     "operator": "EarthScope borehole network",
+     "siteName": "kapows941bwa2008, Kapowsin, WA, USA",
+     "lat": 46.986801,
+     "lon": -122.219002,
+     "elev": 151,
+     "depth": 153.0,
+     "since": "2008-03-18",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EH1",
+        "EH2",
+        "EHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "strainmeter",
+       "band": null,
+       "channels": [
+        "BS1",
+        "BS2",
+        "BS3",
+        "BS4",
+        "LS1",
+        "LS2",
+        "LS3",
+        "LS4"
+       ],
+       "rate": 20.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.WPEQ",
+   "name": "White Pass Ski Facility",
+   "codes": [
+    "UW.WPEQ"
+   ],
+   "lat": 46.613279,
+   "lon": -121.404485,
+   "x": 27.095442404261306,
+   "z": 26.61796873000038,
+   "elev": 1807,
+   "kinds": [
+    "seismometer",
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2021-08-02",
+   "onMap": true,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.WPEQ",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "White Pass Ski Facility, WA, USA",
+     "lat": 46.613279,
+     "lon": -121.404485,
+     "elev": 1807,
+     "depth": 1.0,
+     "since": "2021-08-02",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.GSM",
+   "name": "Grass Mtn, Enumclaw",
+   "codes": [
+    "UW.GSM"
+   ],
+   "lat": 47.20388,
+   "lon": -121.796043,
+   "x": -2.713464882387295,
+   "z": -39.01552039999956,
+   "elev": 1324,
+   "kinds": [
+    "seismometer",
+    "accelerometer"
+   ],
+   "since": "2022-07-19",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.GSM",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Grass Mtn, Enumclaw, WA, USA",
+     "lat": 47.20388,
+     "lon": -121.796043,
+     "elev": 1324,
+     "depth": 1.0,
+     "since": "2022-07-19",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.STOR",
+   "name": "Enumclaw",
+   "codes": [
+    "UW.STOR"
+   ],
+   "lat": 47.188099,
+   "lon": -121.9888,
+   "x": -17.38785677797488,
+   "z": -37.261777869999904,
+   "elev": 272,
+   "kinds": [
+    "seismometer",
+    "accelerometer"
+   ],
+   "since": "2021-04-20",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.STOR",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Enumclaw, WA, USA",
+     "lat": 47.188099,
+     "lon": -121.9888,
+     "elev": 272,
+     "depth": 0.0,
+     "since": "2021-04-20",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.GHW",
+   "name": "Garrison Hill WA, Graham area",
+   "codes": [
+    "UW.GHW"
+   ],
+   "lat": 47.041489,
+   "lon": -122.273727,
+   "x": -39.0790558505586,
+   "z": -20.969008569999616,
+   "elev": 261,
+   "kinds": [
+    "accelerometer"
+   ],
+   "since": "2023-08-28",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.GHW",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Garrison Hill WA, Graham area, WA, USA",
+     "lat": 47.041489,
+     "lon": -122.273727,
+     "elev": 261,
+     "depth": 0.0,
+     "since": "2023-08-28",
+     "instruments": [
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.TEHA",
+   "name": "Tehaleh Heights Elementary School, Bonney Lake",
+   "codes": [
+    "UW.TEHA"
+   ],
+   "lat": 47.12795,
+   "lon": -122.1963,
+   "x": -33.18461808020702,
+   "z": -30.577419499999603,
+   "elev": 212,
+   "kinds": [
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2022-05-04",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.TEHA",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Tehaleh Heights Elementary School, Bonney Lake, WA, USA",
+     "lat": 47.12795,
+     "lon": -122.1963,
+     "elev": 212,
+     "depth": 0.0,
+     "since": "2022-05-04",
+     "instruments": [
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "HNE",
+        "HNN",
+        "HNZ"
+       ],
+       "rate": 200.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.SPFR",
+   "name": "South Pierce Fire and Rescue, Eatonville",
+   "codes": [
+    "UW.SPFR"
+   ],
+   "lat": 46.94787,
+   "lon": -122.35675,
+   "x": -45.39951133776547,
+   "z": -10.565129099999973,
+   "elev": 172,
+   "kinds": [
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2020-06-12",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.SPFR",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "South Pierce Fire and Rescue, Eatonville, WA, USA",
+     "lat": 46.94787,
+     "lon": -122.35675,
+     "elev": 172,
+     "depth": 0.0,
+     "since": "2020-06-12",
+     "instruments": [
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "HNE",
+        "HNN",
+        "HNZ"
+       ],
+       "rate": 200.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NP.2189",
+   "name": "Howard Hanson Dam",
+   "codes": [
+    "NP.2189"
+   ],
+   "lat": 47.27893,
+   "lon": -121.78778,
+   "x": -2.0844112021928938,
+   "z": -47.35582690000006,
+   "elev": 327,
+   "kinds": [
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2025-07-17",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "NP.2189",
+     "network": "NP",
+     "operator": "USGS National Strong-Motion Project",
+     "siteName": "Howard Hanson Dam",
+     "lat": 47.27893,
+     "lon": -121.78778,
+     "elev": 327,
+     "depth": 0.0,
+     "since": "2025-07-17",
+     "instruments": [
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "HN2",
+        "HN3",
+        "HNZ"
+       ],
+       "rate": 200.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.MNRL",
+   "name": "Mineral Block, Gifford-Pinchot Nat. Forest, Morton",
+   "codes": [
+    "UW.MNRL"
+   ],
+   "lat": 46.65127,
+   "lon": -122.33041,
+   "x": -43.394274264508226,
+   "z": 22.39602890000059,
+   "elev": 1225,
+   "kinds": [
+    "seismometer",
+    "accelerometer",
+    "gnss"
+   ],
+   "since": "2025-08-09",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.MNRL",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Mineral Block, Gifford-Pinchot Nat. Forest, Morton, WA, USA",
+     "lat": 46.65127,
+     "lon": -122.33041,
+     "elev": 1225,
+     "depth": 1.0,
+     "since": "2025-08-09",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "broadband",
+       "channels": [
+        "HHE",
+        "HHN",
+        "HHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "gnss",
+       "band": null,
+       "channels": [
+        "GAN",
+        "GEL",
+        "GLA",
+        "GLO",
+        "GNS",
+        "GPL",
+        "GST"
+       ],
+       "rate": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "UW.PUPY",
+   "name": "Dog Mt",
+   "codes": [
+    "UW.PUPY"
+   ],
+   "lat": 46.49542,
+   "lon": -122.14613,
+   "x": -29.36522764872311,
+   "z": 39.7156393999999,
+   "elev": 815,
+   "kinds": [
+    "seismometer",
+    "accelerometer"
+   ],
+   "since": "2019-10-31",
+   "onMap": false,
+   "major": null,
+   "stations": [
+    {
+     "code": "UW.PUPY",
+     "network": "UW",
+     "operator": "Pacific Northwest Seismic Network",
+     "siteName": "Dog Mt, WA, USA",
+     "lat": 46.49542,
+     "lon": -122.14613,
+     "elev": 815,
+     "depth": 1.0,
+     "since": "2019-10-31",
+     "instruments": [
+      {
+       "kind": "seismometer",
+       "band": "short period",
+       "channels": [
+        "EHZ"
+       ],
+       "rate": 100.0
+      },
+      {
+       "kind": "accelerometer",
+       "band": null,
+       "channels": [
+        "ENE",
+        "ENN",
+        "ENZ"
+       ],
+       "rate": 100.0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "code": "C0.PALI",
+   "reason": "duplicate of CC.PALI under a Colorado network code"
+  },
+  {
+   "code": "SY.*",
+   "reason": "synthetic seismograms, not an instrument"
+  }
+ ],
+ "counts": {
+  "stations": 52,
+  "sites": 50,
+  "sitesOnMap": 37,
+  "stationsOnMap": 39
+ },
+ "source": "EarthScope FDSN station service; active channels as of 2026-09-23"
+}

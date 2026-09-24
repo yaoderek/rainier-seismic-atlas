@@ -1,0 +1,15 @@
+{
+ "cols": 1800,
+ "rows": 1215,
+ "x0": -30.4211364644432,
+ "z0": -29.693935999999493,
+ "dx": 0.03383509783610685,
+ "dz": 0.04939111111111103,
+ "min": 82.7175064086914,
+ "max": 4386.17041015625,
+ "image": {
+  "width": 4080,
+  "height": 2754
+ },
+ "source": "USGS 3DEP elevation and USGS The National Map imagery (public domain)"
+}

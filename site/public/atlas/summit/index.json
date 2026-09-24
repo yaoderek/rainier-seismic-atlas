@@ -1,16 +1,16 @@
 {
  "patch": {
   "west_km": -4.209627532376968,
-  "north_km": -4.09669632000015,
+  "north_km": -4.096696320000149,
   "width_km": 8.41925506475417,
-  "height_km": 8.19339264
+  "height_km": 8.193392639999999
  },
  "tile": 256,
  "levels": [
   {
    "level": 0,
    "cell_x_km": 0.00548128584944933,
-   "cell_z_km": 0.00800136,
+   "cell_z_km": 0.008001359999999999,
    "tiles_x": 6,
    "tiles_z": 4,
    "chunk_w": 1536,
@@ -19,7 +19,7 @@
   {
    "level": 1,
    "cell_x_km": 0.002740642924724665,
-   "cell_z_km": 0.00400068,
+   "cell_z_km": 0.0040006799999999995,
    "tiles_x": 12,
    "tiles_z": 8,
    "chunk_w": 3072,
@@ -28,7 +28,7 @@
   {
    "level": 2,
    "cell_x_km": 0.0013703214623623325,
-   "cell_z_km": 0.00200034,
+   "cell_z_km": 0.0020003399999999998,
    "tiles_x": 24,
    "tiles_z": 16,
    "chunk_w": 3072,
@@ -37,11 +37,13 @@
   {
    "level": 3,
    "cell_x_km": 0.0006851607311811663,
-   "cell_z_km": 0.00100017,
+   "cell_z_km": 0.0010001699999999999,
    "tiles_x": 48,
    "tiles_z": 32,
    "chunk_w": 3072,
    "chunk_h": 2048
   }
- ]
+ ],
+ "maxSeamStepM": 0.5668230056762695,
+ "source": "USGS 3DEP 1 m lidar and USGS The National Map imagery (public domain)"
 }

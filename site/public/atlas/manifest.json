@@ -1,0 +1,36 @@
+{
+ "built": "2026-09-24T05:53:23+00:00",
+ "sizeBytes": 301040870,
+ "sources": [
+  {
+   "name": "USGS 3DEP elevation (overview and 1 m summit lidar)",
+   "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+   "license": "public domain"
+  },
+  {
+   "name": "USGS The National Map imagery (USGSImageryOnly)",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+   "license": "public domain"
+  },
+  {
+   "name": "EarthScope FDSN station service",
+   "url": "https://service.earthscope.org/fdsnws/station/1/",
+   "license": "open",
+   "asOf": "2026-09-23"
+  }
+ ],
+ "extent": {
+  "overview": {
+   "west": -122.16,
+   "south": 46.58,
+   "east": -121.36,
+   "north": 47.12
+  },
+  "summit": {
+   "west": -121.815696,
+   "south": 46.815936,
+   "east": -121.705104,
+   "north": 46.889664
+  }
+ }
+}
