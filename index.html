@@ -578,9 +578,9 @@ cloud.renderOrder = 4; dots.renderOrder = 5;
 // ---------- Stations ----------
 // Major stations: the long-running and multi-instrument sites on the mountain (EarthScope FDSN, 2026-09-23)
 const MAJOR = {
-  "UW.STAR": "near the summit, 3,365 m", "UW.RCM": "Camp Muir, broadband + GNSS", "UW.RCS": "upper south flank",
-  "CC.MILD": "broadband + infrasound", "CC.PARA": "Paradise, broadband + infrasound", "UW.RER": "Emerald Ridge, broadband + infrasound + GNSS",
-  "UW.FMW": "Mount Fremont, broadband + GNSS", "UW.LON": "Longmire, broadband + accelerometer + tiltmeters", "CC.OBSR": "broadband",
+  "UW.STAR": "St. Andrews Rock, 3,365 m", "UW.RCM": "Camp Muir, broadband + GNSS", "UW.RCS": "Camp Schurman",
+  "CC.MILD": "Mildred Point, broadband + infrasound", "CC.PARA": "Paradise, broadband + infrasound", "UW.RER": "Emerald Ridge, broadband + infrasound + GNSS",
+  "UW.FMW": "Mount Fremont, broadband + GNSS", "UW.LON": "Longmire, broadband + accelerometer + tiltmeters", "CC.OBSR": "Observation Rock, broadband",
 };
 const marks = document.getElementById("marks"), tip = document.getElementById("tip");
 const stations = D.stations.filter(s => elevKm(s.x, s.z) !== null).map(s => {
