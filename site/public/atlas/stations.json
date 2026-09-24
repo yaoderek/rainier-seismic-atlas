@@ -2888,6 +2888,8 @@
   }
  ],
  "counts": {
+  "returned": 87,
+  "excluded": 35,
   "stations": 52,
   "sites": 50,
   "sitesOnMap": 37,
