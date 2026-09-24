@@ -603,13 +603,18 @@ function selectStation(id) {
   document.querySelectorAll("nav button.st").forEach(b => b.classList.toggle("on", b.dataset.s === id));
 }
 // like flyToPoint in src/atlas_map: keep the current viewing direction, settle at a fixed distance
+// A station is framed from 9 km out, about 28° above the horizon, looking toward the summit so the
+// mountain rises behind it. Stations at the summit itself keep the current heading.
+const STATION_VIEW = { dist: 9, elevDeg: 28 };
 function flyToStation(id) {
   const st = byId[id]; if (!st) return;
   selectStation(id);
-  const dir = camera.position.clone().sub(controls.target).normalize();
-  if (dir.y < 0.25) { dir.y = 0.45; dir.normalize(); }     // arriving from underground would bury the camera
   const target = st.p.clone();
-  _fly(target.clone().add(dir.multiplyScalar(1.6)), target, 1300);
+  let hx = target.x, hz = target.z;                          // horizontal direction from the summit out to the station
+  if (Math.hypot(hx, hz) < 1) { hx = camera.position.x - target.x; hz = camera.position.z - target.z; }
+  const hl = Math.hypot(hx, hz) || 1, el = THREE.MathUtils.degToRad(STATION_VIEW.elevDeg);
+  const off = new THREE.Vector3(hx / hl * Math.cos(el), Math.sin(el), hz / hl * Math.cos(el)).multiplyScalar(STATION_VIEW.dist);
+  _fly(target.clone().add(off), target, 1800);
 }
 const staNav = document.getElementById("staNav");
 for (const id of Object.keys(MAJOR)) if (byId[id]) {
