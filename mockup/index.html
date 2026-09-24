@@ -334,7 +334,7 @@ const baseTerrain = (() => {
 })();
 
 // ---------- Summit: 1 m lidar in four detail levels, loaded around the camera ----------
-const LOD = await (await fetch("lod/index.json")).json();
+const LOD = await (await fetch("../atlas/summit/index.json")).json();
 const PW = LOD.patch.west_km, PN = LOD.patch.north_km, T = LOD.tile, LEVELS = LOD.levels, MAXL = LEVELS.length - 1;
 U.hole.value.set(PW + 0.004, PW + LOD.patch.width_km - 0.004, PN + 0.004, PN + LOD.patch.height_km - 0.004);
 const lodGroup = new THREE.Group(); scene.add(lodGroup);
@@ -352,7 +352,7 @@ function getChunk(k, r, c) {
   let ch = chunks.get(id);
   if (!ch) {
     ch = { refs: 0, ready: null };
-    ch.ready = new THREE.TextureLoader().loadAsync(`lod/img/${id}.jpg`).then(t => {
+    ch.ready = new THREE.TextureLoader().loadAsync(`../atlas/summit/img/${id}.jpg`).then(t => {
       t.flipY = false; t.anisotropy = renderer.capabilities.getMaxAnisotropy(); t.needsUpdate = true;
       ch.mat = terrainMat(t, false); ch.tex = t; return ch;
     });
@@ -375,7 +375,7 @@ function pump() {
     inflight++; t.state = "loading";
     const { r, c, cw, chh } = chunkFor(t.k, t.ty, t.tx);
     const ch = getChunk(t.k, r, c); ch.refs++; t.chunk = ch;
-    Promise.all([fetch(`lod/${t.k}/${t.ty}_${t.tx}.bin`).then(x => x.arrayBuffer()), ch.ready]).then(([buf]) => {
+    Promise.all([fetch(`../atlas/summit/${t.k}/${t.ty}_${t.tx}.bin`).then(x => x.arrayBuffer()), ch.ready]).then(([buf]) => {
       const q = new Uint16Array(buf), n = T + 1, hts = new Float32Array(n * n);
       let lo = 1e9, hi = -1e9;
       for (let i = 0; i < q.length; i++) { hts[i] = q[i] / 10000; lo = Math.min(lo, hts[i]); hi = Math.max(hi, hts[i]); }
